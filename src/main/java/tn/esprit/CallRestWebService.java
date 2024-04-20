@@ -8,7 +8,7 @@ import org.apache.http.util.EntityUtils;
 import org.json.JSONObject;
 
 /** @author marwen */
-
+// Call a REST web service using Apache HttpClient
 public class CallRestWebService {
 	public static final String endpoint = "https://httpbin.org/get";
 	
