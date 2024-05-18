@@ -23,5 +23,12 @@
 <version>4.1.1</version>
 </dependency>
 </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>deploymentRepo</id>
+      <name>Nexus Repository</name>
+      <url>http://localhost:8081/repository/maven-releases/</url>
+    </repository>
+  </distributionManagement>
   
 </project>
